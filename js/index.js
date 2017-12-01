@@ -1,5 +1,7 @@
 var image1 = document.getElementById("image1");
 var poppyimage = document.getElementById("poppyimage");
+var option1 = document.getElementById("option1");
+var backoption = document.getElementById("backoption");
 
 var poppy_text1 = document.getElementById("poppytext1");
 var poppy_text2 = document.getElementById("poppytext2");
@@ -8,11 +10,18 @@ var poppylove3 = document.getElementById("poppylove3");
 var poppylove4 = document.getElementById("poppylove4");
 
 var poppyclicked = false;
+var optionclicked = false;
 var poppycanclick = false;
 var poppycounter = 0;
 
 function poppy_f(){
-	image1.style.display = "flex";
+	if (!optionclicked) {
+		image1.style.display = "flex";
+		optionclicked = true;
+	} else {
+		option1.style.display="none";
+		backoption.style.display="flex";
+	}
 }
 
 function poppy_wave(){

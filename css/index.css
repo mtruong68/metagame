@@ -19,6 +19,17 @@ body {
 	cursor: pointer;
 }
 
+#backoption {
+	display: none;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	letter-spacing: 2px;
+	font-size: 24px;
+	color: #00f2ff;
+	padding-left: 15px;
+}
+
 .x {
 	letter-spacing: 1px;
 	font-size: 16px;
@@ -40,14 +51,11 @@ body {
 
 .image1 {
 	display: none;
-	border: 2px solid white;
-	border-radius: 10px;
 	max-width: 550px;
 	flex-direction: row;
 	align-items: center;
-	margin-top: 20px;
 	font-size: 16px;
-	padding: 10px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 #poppyimage:hover {
