@@ -3,17 +3,21 @@ var poppyimage = document.getElementById("poppyimage");
 var option1 = document.getElementById("option1");
 var backoption = document.getElementById("backoption");
 
-var poppy_text1 = document.getElementById("poppytext1");
-var poppy_text2 = document.getElementById("poppytext2");
+var poppytext1 = document.getElementById("poppytext1");
+var poppytext2 = document.getElementById("poppytext2");
+var poppytext2alt = document.getElementById("poppytext2alt");
 var poppy_text3 = document.getElementById("poppytext3");
 var poppylove3 = document.getElementById("poppylove3");
 var poppylove4 = document.getElementById("poppylove4");
+var poppysad = document.getElementById("sadpoppy");
 
 var poppyclicked = false;
 var optionclicked = false;
 var poppycanclick = false;
+var poppycry = false;
 var poppycounter = 0;
 
+//this is the logic for the poppy functions
 function poppy_f(){
 	if (!optionclicked) {
 		image1.style.display = "flex";
@@ -26,7 +30,11 @@ function poppy_f(){
 
 function poppy_wave(){
 	if (!poppyclicked){
-		poppyimage.src = "images/poppy2.png";
+		if (poppycry){
+			poppyimage.src = "images/poppy4.png";
+		} else {
+			poppyimage.src = "images/poppy2.png";
+		}
 	}
 }
 
@@ -34,7 +42,11 @@ function poppy_out(){
 	if (poppyclicked){
 		poppyimage.src = "images/poppy3.png";
 	} else {
-		poppyimage.src = "images/poppy1.png";
+		if (poppycry) {
+			poppyimage.src = "images/poppy4.png";
+		} else {
+			poppyimage.src = "images/poppy1.png";
+		}
 	}
 }
 
@@ -64,4 +76,16 @@ function poppy_text4_f() {
 	poppycanclick = true;
 }
 
+function poppy_text2_alt_f() {
+	poppyimage.src="images/poppy4.png";
+	poppytext1.style.display="none";
+	poppytext2.style.display="none";
+	poppytext2alt.style.display="inline";
+	poppycry=true;
+}
 
+function poppysad_f() {
+	poppysad.style.display="inline";
+}
+
+//this is the logic for the certainty functions

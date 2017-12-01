@@ -48,14 +48,14 @@ body {
 	color: #abd6d5;
 }
 
-
+/* poppy functions */
 .image1 {
 	display: none;
 	max-width: 550px;
 	flex-direction: row;
 	align-items: center;
 	font-size: 16px;
-	padding: 0px 0px 0px 0px;
+	margin-top: 15px;
 }
 
 #poppyimage:hover {
@@ -71,6 +71,10 @@ body {
 	display: none;
 }
 
+#poppytext2alt {
+	display: none;
+}
+
 
 #poppylove3 {
 	display: none;
@@ -82,7 +86,14 @@ body {
 	max-width: 320px;
 }
 
+#sadpoppy {
+	display:none;
+}
 .material-icons {
   padding-right: 10px;
 }
+
+/* certainty functions */
+
+
 

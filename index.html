@@ -21,30 +21,41 @@
 			<div> what are you doing? you cannot go back </div>
 		</div>
 
+		<!-- this is the poppy function -->
 		<div class="image1" id="image1" >
 			<img id="poppyimage" src="images/poppy1.png" alt="poppy" height="200px"
 			onmouseover="poppy_wave()" onmouseout="poppy_out()" onclick="poppy_love()">
 
 			<div id="poppytext1"> give poppy your love? <br> <br>
 				<div class="o small" onclick="poppy_text2_f()"><i class="material-icons">arrow_forward</i>yes</div>
-				<div class="o small"><i class="material-icons">arrow_forward</i>no</div>
+				<div class="o small" onclick="poppy_text2_alt_f()"><i class="material-icons">arrow_forward</i>no</div>
 			</div>
 
 			<div id="poppytext2">
 				<div>are you sure? maybe poppy doesn't deserve your love. maybe you should find a real friend.</div> <br>
 				<div class="o small" onclick="poppy_text3_f()"><i class="material-icons">arrow_forward</i>i will still give poppy my love</div>
-				<div class="o small"><i class="material-icons">arrow_forward</i>maybe you're right...</div>
+				<div class="o small" onclick="poppy_text2_alt_f()"><i class="material-icons">arrow_forward</i>maybe you're right...</div>
+			</div>
+
+			<div id="poppytext2alt"> 
+				<div class="x" onclick="poppysad_f()"><i class="material-icons">arrow_forward</i>that's okay.</div> <br>
+				<div id="sadpoppy">poppy isn't sad. poppy is composed of bytes and pixels. your love might be better spent on flesh and blood humans. <br> <br>
+					<div class="o small" onclick="location.href='pages/thanksgiving.html'"><i class="material-icons">arrow_forward</i>this is true</div>
+					<div class="o small" onclick="location.href='pages/sorry.html'"><i class="material-icons">arrow_forward</i>(i regret my choice)</div>
+				</div>
 			</div>
 
 			<div id="poppytext3">
 				<div class="x" onclick="poppy_text4_f()"><i class="material-icons">arrow_forward</i>fine.</div> <br>
 				<div id="poppylove3">click on poppy 10 times</div> <br> <br>
-				<div id="poppylove4" class="x" onclick="location.href='pages/thanksgiving.html'"><i class="material-icons">arrow_forward</i>i hope that made you feel good about yourself</div>
+				<div id="poppylove4" class="x" onclick=" location.href='pages/thanksgiving.html'"><i class="material-icons">arrow_forward</i>i hope that made you feel good about yourself</div>
 			</div>
-
 		</div>
+		<!-- this is the certainty function -->
 
 		<div class="image2">
+			
+
 		</div>
 
 	</div>
