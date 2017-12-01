@@ -1,35 +1,49 @@
 <html>
 <header>
-  <title>a game about </title>
-  <link rel="stylesheet" type="text/css" href="css/index.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-  rel="stylesheet">
+	<title>a game about </title>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
 </header>
 <body>
-  <div class="body">
-    <div class="title">
-      this is a game
-    </div>
+	<div class="body">
+		<div class="title">
+			this is a game
+		</div>
 
-    <div class="option1">
-      <div class="o" onclick="poppy_f()"><i class="material-icons">arrow_forward</i>about doubt</div>
-      <div class="o"><i class="material-icons">arrow_forward</i>(it doesn't have to be about doubt)</div>
-    </div>
+		<div class="option1">
+			<div class="o" onclick="poppy_f()"><i class="material-icons">arrow_forward</i>about doubt</div>
+			<div class="o"><i class="material-icons">arrow_forward</i>(it doesn't have to be about doubt)</div>
+		</div>
 
-    <div class="image1" id="image1" >
-      <img id="poppyimage" src="images/poppy1.png" alt="poppy" height="200px"
-      onmouseover="poppy_wave()" onmouseout="poppy_out()" onclick="poppy_love()">
-      <div class="poppytext"> give poppy your love? <br> <br>
-        <div class="o"><i class="material-icons">arrow_forward</i>yes</div>
-        <div class="o"><i class="material-icons">arrow_forward</i>no</div>
-      </div>
-    </div>
+		<div class="image1" id="image1" >
+			<img id="poppyimage" src="images/poppy1.png" alt="poppy" height="200px"
+			onmouseover="poppy_wave()" onmouseout="poppy_out()" onclick="poppy_love()">
 
-    <div class="image2">
-    </div>
+			<div id="poppytext1"> give poppy your love? <br> <br>
+				<div class="o small" onclick="poppy_text2_f()"><i class="material-icons">arrow_forward</i>yes</div>
+				<div class="o small"><i class="material-icons">arrow_forward</i>no</div>
+			</div>
 
-  </div>
-  <script src="js/index.js"></script>
+			<div id="poppytext2">
+				<div>are you sure? maybe poppy doesn't deserve your love. maybe you should find a real friend.</div> <br>
+				<div class="o small" onclick="poppy_text3_f()"><i class="material-icons">arrow_forward</i>i will still give poppy my love</div>
+				<div class="o small"><i class="material-icons">arrow_forward</i>maybe you're right...</div>
+			</div>
+
+			<div id="poppytext3">
+				<div class="x" onclick="poppy_text4_f()"><i class="material-icons">arrow_forward</i>fine.</div> <br>
+				<div id="poppylove3">click on poppy 10 times</div> <br> <br>
+				<div id="poppylove4" class="x" onclick="thanksgiving_f()"><i class="material-icons">arrow_forward</i>i hope that made you feel good about yourself</div>
+			</div>
+
+		</div>
+
+		<div class="image2">
+		</div>
+
+	</div>
+	<script src="js/index.js"></script>
 </body>
 </html>

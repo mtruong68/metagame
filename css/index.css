@@ -16,32 +16,62 @@ body {
 	padding: 0px 0px 12px 20px;
 	letter-spacing: 1px;
 	font-size: 24px;
-	color: white;
 	cursor: pointer;
+}
+
+.x {
+	letter-spacing: 1px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.small {
+	font-size: 14px;
 }
 
 .o:hover {
 	color: #abd6d5;
 }
 
+.x:hover {
+	color: #abd6d5;
+}
+
+
 .image1 {
 	display: none;
 	border: 2px solid white;
 	border-radius: 10px;
-	width: 500px;
-	height: 200px;
+	max-width: 550px;
 	flex-direction: row;
 	align-items: center;
 	margin-top: 20px;
-	font-size: 24px;
+	font-size: 16px;
+	padding: 10px 0px 10px 0px;
 }
 
 #poppyimage:hover {
 	cursor: pointer;
 }
 
-.image2 {
+#poppytext2 {
 	display: none;
+	max-width: 320px;
+}
+
+#poppytext3 {
+	display: none;
+}
+
+
+#poppylove3 {
+	display: none;
+	max-width: 320px;
+}
+
+#poppylove4 {
+	display: none;
+	max-width: 320px;
 }
 
 .material-icons {
