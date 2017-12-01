@@ -1,0 +1,50 @@
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	background-color: black;
+	padding: 40px 0px 20px 40px;
+	color: white;
+}
+
+.title {
+	font-size: 40px;
+	color: #00ccc8;
+	letter-spacing: 4px;
+	padding-bottom: 20px;
+}
+
+.o {
+	padding: 0px 0px 12px 20px;
+	letter-spacing: 1px;
+	font-size: 24px;
+	color: white;
+	cursor: pointer;
+}
+
+.o:hover {
+	color: #abd6d5;
+}
+
+.image1 {
+	display: none;
+	border: 2px solid white;
+	border-radius: 10px;
+	width: 500px;
+	height: 200px;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 20px;
+	font-size: 24px;
+}
+
+#poppyimage:hover {
+	cursor: pointer;
+}
+
+.image2 {
+	display: none;
+}
+
+.material-icons {
+  padding-right: 10px;
+}
+
