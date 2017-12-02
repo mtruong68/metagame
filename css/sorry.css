@@ -1,0 +1,71 @@
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	background-color: black;
+	padding: 40px 0px 20px 40px;
+	color: white;
+	font-size: 36px;
+	letter-spacing: 3px;
+}
+
+.body {
+	display:flex;
+	flex-direction: row;
+	max-width:1000px;
+	align-items: flex-start;
+}
+
+#sorry {
+	display: block;
+	margin-bottom: 40px;
+}
+
+#sorry:hover {
+	color: rgb(0,255,255);
+	cursor: pointer;
+}
+
+.sorrytext{
+	font-size: 12px;
+	max-width: 200px;
+	margin-right: 20px;
+}
+
+#sorrytext1{
+	display:none;
+}
+
+#sorrytext2{
+	display:none;
+}
+
+#sorrytext3{
+	display:none;
+	max-width: 200px;
+}
+
+#sorrytext4{
+	display:none;
+}
+
+#sorrytext5{
+	display:none;
+}
+
+#nomore{
+	display:none;
+	padding-top: 15px;
+}
+
+#nomore:hover{
+	color: rgb(0,255,255);
+	cursor: pointer;
+}
+
+a {
+	color: white;
+	display: inline;
+}
+
+a:hover {
+	color: cyan;
+}

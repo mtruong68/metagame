@@ -1,4 +1,5 @@
 var image1 = document.getElementById("image1");
+var image2 = document.getElementById("image2");
 var poppyimage = document.getElementById("poppyimage");
 var option1 = document.getElementById("option1");
 var backoption = document.getElementById("backoption");
@@ -10,6 +11,11 @@ var poppy_text3 = document.getElementById("poppytext3");
 var poppylove3 = document.getElementById("poppylove3");
 var poppylove4 = document.getElementById("poppylove4");
 var poppysad = document.getElementById("sadpoppy");
+
+var certainty1 = document.getElementById("certaintytext1");
+var certainty2 = document.getElementById("certaintytext2");
+var certainty2alt = document.getElementById("certaintytext2alt");
+var certainty3 = document.getElementById("certaintytext3");
 
 var poppyclicked = false;
 var optionclicked = false;
@@ -89,3 +95,30 @@ function poppysad_f() {
 }
 
 //this is the logic for the certainty functions
+
+function certainty_f(){
+	if (!optionclicked) {
+		image2.style.display = "flex";
+		optionclicked = true;
+	} else {
+		option1.style.display="none";
+		backoption.style.display="flex";
+	}
+}
+
+function certainty_text2_f() {
+	certainty1.style.display="none";
+	certainty2.style.display="inline";
+}
+
+function certainty_text2_alt_f() {
+	image2.style.display="none";
+	image1.style.display = "flex";
+}
+
+function certainty_text3_f() {
+	certainty1.style.display="none";
+	certainty2.style.display="none";
+	certainty3.style.display="inline";
+}
+
