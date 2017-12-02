@@ -124,6 +124,10 @@ body {
 	display: none;
 }
 
+
+a{
+	text-decoration: none;
+}
 .image {
 	margin: 20px 18px 0px 5px;
 }
