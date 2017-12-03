@@ -15,17 +15,17 @@ body {
 }
 
 #text1 {
-	/*display:none;*/
+	display:none;
 }
 
 #text2 {
-	/*display:none;*/
+	display:none;
 	margin: 60px 0px 0px 200px;
 	font-size: 40px;
 }
 
 #text3 {
-	/*display:none;*/
+	display:none;
 	margin: 60px 0px 0px 200px;
 	font-size: 40px;
 }
