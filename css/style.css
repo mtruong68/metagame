@@ -1,0 +1,12 @@
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 50%;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 50%;
+    height: 50%;
+}

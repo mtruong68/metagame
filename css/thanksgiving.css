@@ -5,17 +5,34 @@ body {
 	color: white;
 }
 
+.body {
+	display: flex;
+	flex-direction: row;
+}
+
 .text {
-	max-width: 700px;
-	display: block;
+	width: 700px;
 }
 
 .o {
-	color: red;
+	color: aqua;
 	display: inline;
 }
 
 .o:hover {
 	color: blue;
+	cursor: pointer;
+}
+
+#text1 {
+	display:none;
+}
+
+#pop {
+	max-width: 300px;
+	display: none;
+}
+
+#pop:hover {
 	cursor: pointer;
 }
