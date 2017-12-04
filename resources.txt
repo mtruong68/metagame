@@ -1,0 +1,19 @@
+Hello, 
+
+It is important for you to know that although I coded most of this project by hand,
+there were a few very key resources that I used in making this.
+
+-The Future Splash example from paperjs.org
+(for the page about the waves-please try interacting with the water)
+
+-The Division Rasterize example
+(for the tend your garden-please try interacting with the blue box)
+
+-https://codepen.io/saransh/pen/BKJun (for the page about stars)
+-I used the compiled CSS and HTML because I currently have not learned how to use Sass or Haml
+
+The rest of this project was my own work, except for quotes which have been attributed to 
+the correct people (specifically, the Emily Dickinson quote). I created the graphics
+and text and the code. 
+
+-Mary Truong
